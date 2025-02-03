@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 92.5%; */
+  margin: 0 auto;
+}
+
+p {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  text-decoration-skip-ink: none;
+
+  font-size: 16px;
+}
+
+h1 {
+  font-family: Ubuntu;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.logo img {
+  max-width: 214px;
+  height: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 92.5%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.a-links {
+  display: flex;
+  flex-direction: row;
+}
+.a-links .navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: center;
+  margin-right: 2vw;
+}
+
+.a-links a {
+  text-decoration: none;
+  color: #000033;
+  font-family: "Manrope", serif;
+}
+
+#active {
+  font-weight: bold;
+}
+
+#active u {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+.contact a {
+  color: #029837;
+  padding: 13px 20px;
+  border: 1px solid #029837;
+  border-radius: 20px;
+}
+
+.contact a:hover {
+  background-color: #029837;
+  cursor: pointer;
+}
+
+.contact:hover a {
+  color: white;
+}
+
+.founder {
+  display: flex;
+  flex-direction: row;
+  gap: 10vw;
+  width: 92.5%;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+}
+
+.founder-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  justify-content: center;
+}
+
+.founder-txt p {
+  font-family: Ubuntu;
+  font-weight: 300;
+  line-height: 26px;
+  color: #000033;
+}
+.founder img {
+  max-width: 500px;
+  height: 500px;
+  border-radius: 200px 0 200px 200px;
+}
+.founder h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.founder p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+/* Call to Action Section */
+.cta {
+  background: #f7fff6;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 5vw;
+  gap: 5vh;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  color: #000033;
+  flex-wrap: wrap;
+  max-width: 40vw;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #029837;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  width: fit-content;
+  border-radius: 5px;
+  align-self: center;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Newsletter Section */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 10vh 5vw;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 30vw;
+
+  align-self: center;
+}
+
+.newsletter form {
+  margin: 0 auto;
+  margin-top: 1vh;
+}
+
+.newsletter form input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #f2f1f1;
+  width: 25vw;
+  margin-right: 1vw;
+  padding: 2vh 2vw;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: #f2f1f1;
+}
+
+.newsletter form input::placeholder {
+  font-size: 13px;
+}
+
+.newsletter form button {
+  padding: 15px 20px;
+  background: #029837;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.newsletter form button:hover {
+  background: #2980b9;
+}
+
+/* Footer */
+footer {
+  background-color: #000033;
+  color: white;
+  padding: 2rem 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-footer {
+  width: 92.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  max-width: 300px;
+}
+
+.footer-a {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.footer-a a {
+  color: white;
+  margin: 0.5rem;
+  align-self: flex-start;
+  text-decoration: none;
+}
+
+.footer-a a:hover {
+  text-decoration: underline;
+}
+
+.footer-connect {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.footer-connect a {
+  color: white;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.footer-connect a:hover {
+  color: #029837;
+}
+
+.bot-footer p {
+  color: #ffffff;
+}
