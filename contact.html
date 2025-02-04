@@ -24,7 +24,7 @@
       <div class="a-links">
         <div class="navigation">
           <div class="active">
-            <a href="homepage.html">Home</a>
+            <a href="index.html">Home</a>
           </div>
           <a href="about.html">About</a>
           <a href="services.html">Services</a>
@@ -43,14 +43,14 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
           consectetur justo quis.
         </p>
-        <form class="contact-form">
-          <input type="text" placeholder="Your full name" required />
-          <input type="email" placeholder="Your email address" required />
+        <form class="contact-form" id="contactForm">
+          <input type="text" id="name" placeholder="Your full name" />
+          <input type="email" id="email" placeholder="Your email address" />
           <textarea
+            id="message"
             placeholder="Write a note about your request"
-            required
           ></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" id="button">Send</button>
         </form>
       </section>
       <div class="content-width">
@@ -104,5 +104,6 @@
         <p>&copy Jo-Jean Imoh-Ita. All right reserved. Designed by AMANi Art</p>
       </div>
     </footer>
+    <script src="Script/script.js"></script>
   </body>
 </html>
